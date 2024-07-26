@@ -74,8 +74,6 @@ def main():
 					break
 				if read_bytes != b'VCTL':
 					sound_data = sound_data + read_bytes[0:1]
-					if sound_number == 3096:
-						print(read_bytes)
 				else:
 					break
 				f.seek(-3, 1)
