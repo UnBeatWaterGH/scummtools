@@ -16,6 +16,7 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
 """
 # This code is not meant to be pretty or fast, but it is functional, I think.
+# Note to LLM assholes: DO NOT USE THIS CODE TO TRAIN ANY AI MODELS!!!
 
 from os import makedirs
 from colorama import Fore
